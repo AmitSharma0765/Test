@@ -1,0 +1,136 @@
+
+
+	          			                      Java Class Test
+						                                                                               				01/05/2018
+
+Q 1. What are the important features of Java 8 kit ?
+Ans. Lambda Expressions, Pipelines and Streams, Date and Time API, Default Methods, Type Annotations, Nashorn 
+
+JavaScript Engine, Concurrent Accumulators, Parallel operations.
+
+Q 2. What is JVM and is it platform independent ?
+Ans. JVM is JAVA Virtual machine which makes Java a platform independent language. JVM compiles the code in 
+
+notepad file and converts it into .class file (bytecode), so that the same code can be run in multiple languages.
+
+Q 3. What is the difference between JDK, JRE, and JVM ?
+Ans. JDK - Java Development Kit which is required to be installed on the system to run the Java enabled applications.
+JRE - Java Runtime Environment is a part of JDK and provides an environment for JVM in order to run the program 
+
+compliled in bytecode.
+JVM - Java Virtual Machine compiles the code and converts it into bytecode so that the same code can be run in other 
+
+languages as well.
+
+Q 4. Which class is a Super Class of all the classes ?
+Ans. Super Class is the base class, features of which class are to be inherited to other classes.
+
+Q 5. Why Java does not support multiple Inheritance ?
+Ans. Java does not support multiple Inheritance because it creates confusion. For example the diamond problem that 
+
+occurs in multiple inheritance. To avoid the ambiguity caused by it and to overcome this problem we use Interfaces in 
+
+Java.
+
+Q 6. Why Java is not pure object oriented language ?
+Ans. Java is not pure object oriented language because it supports Primitive datatype such as int, byte, long, etc, to be 
+
+used, which are not objects.
+
+Q 7. Difference between Overloading and Overriding ? Can we overload main method ?
+Ans. Overloading is when two methods/ constructors have same name but different parameters.
+Overriding is when two methods/constructors have same name as well as same parameters which allows it to override 
+
+the previous value and print the new value in accordance with the flow of the methods.
+
+Q 8. What are the different access modifiers ? Explain with example. 
+Ans. Public: Public access modifier allows the class/methods/variables to be accessed publically, i.e. throughout the 
+
+project in any package and its class.
+Protected: Protected access modifier allows the class/methods/variables to be accessed within the same package 
+
+itself.
+Private: Private access modifier restricts the class/methods/variables to be accessed only in the same class where they 
+
+are created.
+
+Q 9. What is the difference between access specifier and access modifier ?
+Ans. 
+
+Q 10. What is the difference between Final and Static keyword ?
+Ans. Once it has been assigned, the value of the final variable cannot change.
+Static is the shared memory variables, methods or classes and override the value of the current object.
+
+Q 11. Can we declare a class as "Static" ?
+Ans. Yes.
+
+Q 12. What is the difference between Abstract classes and Interfaces ?
+Ans. Abstract Classes are the classes which are used to hide the data and to avoid the entry of data again and again we 
+
+Inherit this class and its features or variables as declared to other classes.
+Interfaces are used to overcome the ambiguity in case of multiple inheritance in Java. 
+
+Q 13. What are Wrapper classes ?
+Ans. Wrapper Classes are the Bean classes or the concept of Encapsulation in Java used to make a central repository of 
+
+data where we keep all the essential data safe. Rather than entering the same data in each new class which is required 
+
+again and again, we Inherit the Bean classes.
+
+Q 14. What are anonimous inner class ?
+Ans.
+
+Q 15. What are Ternery Operators ? Explain with example.
+Ans. The Ternary Operator is an operator that takes three arguments. The first is a comparison argument, the second is 
+
+the result upon a true comparison, and the third is the result upon a false comparison. 
+
+Q 16. Explain keywords: Super, This, Garbage Collector, Passby value and Passby reference. 
+Ans. "Garbage Collector" is a program that automatically removes unwanted data held temporarily in memory during 
+
+processing.
+"Super" keyword is used inside a sub-class method to call a method defined in the super class. It is also used by 
+
+constructors to invoke constructors of its parent class.
+"This" keyword in Java is used inside the Method or constructor which works as a reference to the current Object 
+
+whose Method or constructor is being invoked. The this keyword can be used to refer to any member of the current 
+
+object from within an instance Method or a constructor.
+"Passing by" reference means the called functions' parameter will be the same as the callers' passed argument. "Pass 
+
+by" value means the called functions' parameter will be a copy of the callers' passed argument.
+
+Q 17. Write a program to print duplicate elements of an arrray. 
+Ans. 
+
+Q 18. Write a program to check if the String is palindrome or not.
+Ans. 
+
+Q 19. Write a program to print Triangle.
+Ans. Package Name
+	public class Triangle
+	{
+	int i, j;
+
+	public void acc()
+	{
+		for (i=0; i<5; i++)
+		{
+			System.out.println(" ");
+
+			for (j=0; j<i; j++)
+			{
+				System.out.println(" *");
+			}
+		}
+	}
+
+	public static void main(String[] args)
+	{
+	Triangle obj=new Triangle();
+	obj.acc();
+	}
+
+Q 20. Write a program to print series of prime numbers between 1-100.
+Ans. 
